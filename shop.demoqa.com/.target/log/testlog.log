@@ -1,0 +1,221 @@
+2020-04-10 23:24:33,344 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-10 23:24:39,697 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-10 23:24:39,712 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-10 23:24:45,788 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-10 23:24:57,265 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-10 23:24:57,296 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-10 23:25:02,734 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-10 23:25:02,757 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-10 23:25:08,443 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-10 23:50:52,892 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-10 23:50:59,237 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-10 23:50:59,254 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-10 23:51:05,060 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-10 23:51:10,092 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-10 23:51:12,749 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-10 23:51:12,891 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-10 23:51:12,981 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-10 23:51:17,751 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-10 23:51:17,785 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-10 23:51:23,836 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-10 23:51:23,848 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-10 23:51:28,025 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-10 23:51:37,570 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-10 23:51:41,744 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-10 23:51:41,890 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-10 23:51:41,957 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-10 23:51:45,646 - shop.demoqa.com - INFO - ******************* Go To Dashboard Menu *******************
+2020-04-10 23:51:45,850 - shop.demoqa.com - INFO - ******************* Go To Order Menu *******************
+2020-04-10 23:51:49,071 - shop.demoqa.com - INFO - ******************* Go To Addresses Menu *******************
+2020-04-10 23:51:53,247 - shop.demoqa.com - INFO - ******************* Go To Account detail Menu *******************
+2020-04-10 23:51:56,711 - shop.demoqa.com - INFO - ******************* Go To Downloads Menu *******************
+2020-04-10 23:51:58,244 - shop.demoqa.com - INFO - ******************* Logout from Application *******************
+2020-04-10 23:52:03,540 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 00:15:33,859 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 00:15:40,317 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 00:15:40,335 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 00:15:45,673 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 00:15:56,083 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 00:15:59,480 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 00:15:59,634 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 00:15:59,717 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-11 00:16:02,212 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 00:16:02,246 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 00:16:07,562 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 00:16:07,570 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 00:16:13,054 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 00:16:18,934 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 00:16:21,566 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 00:16:21,703 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 00:16:21,786 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-11 00:16:23,567 - shop.demoqa.com - INFO - ******************* Go To Dashboard Menu *******************
+2020-04-11 00:16:23,782 - shop.demoqa.com - INFO - ******************* Go To Order Menu *******************
+2020-04-11 00:16:26,170 - shop.demoqa.com - INFO - ******************* Go To Addresses Menu *******************
+2020-04-11 00:16:30,175 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 00:47:43,308 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 00:47:50,365 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 00:47:50,383 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 00:47:57,451 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 00:48:16,435 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 00:48:24,284 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 00:48:24,433 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 00:48:24,512 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-11 00:48:30,372 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:02:13,216 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:02:19,560 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:02:19,575 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:02:25,086 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:02:30,438 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 01:02:33,158 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 01:02:33,308 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 01:02:33,391 - shop.demoqa.com - INFO - ******************* verifying login successfully *******************
+2020-04-11 01:02:36,700 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:02:36,732 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:02:41,968 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:02:41,982 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:02:47,623 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:02:53,590 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 01:02:57,344 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 01:02:57,487 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 01:02:57,560 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 01:02:59,911 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:02:59,939 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:03:05,254 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:03:05,261 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:03:10,997 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:03:18,425 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 01:03:21,380 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 01:03:21,521 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 01:03:21,597 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 01:03:24,087 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:03:24,107 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:03:29,344 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:03:29,350 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:03:35,510 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:03:42,115 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 01:03:44,556 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 01:03:44,709 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 01:03:44,787 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 01:03:47,300 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:03:47,321 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:03:52,640 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:03:52,658 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:03:56,827 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:04:03,417 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 01:04:06,469 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 01:04:06,602 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 01:04:06,689 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 01:04:08,592 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:49:12,848 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:49:29,128 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:49:35,479 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:49:35,525 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:49:40,840 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:49:45,013 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 01:49:46,901 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 01:49:47,164 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 01:49:47,371 - shop.demoqa.com - INFO - ******************* Click on Register Button *******************
+2020-04-11 01:49:47,630 - shop.demoqa.com - INFO - ******************* Verify User Already Registered and getting error message *******************
+2020-04-11 01:49:49,730 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 01:51:14,563 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 01:51:21,115 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 01:51:21,176 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 01:51:26,495 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 01:51:29,531 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 01:51:31,128 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 01:51:31,364 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 01:51:31,550 - shop.demoqa.com - INFO - ******************* Click on Register Button *******************
+2020-04-11 01:51:31,796 - shop.demoqa.com - INFO - ******************* Verify User Already Registered and getting error message *******************
+2020-04-11 01:51:34,270 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 02:01:33,015 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 02:01:39,477 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 02:01:39,535 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 02:01:45,008 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 02:01:49,320 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 18:16:37,054 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 18:16:43,649 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 18:16:43,696 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 18:16:49,825 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 18:16:56,672 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 18:17:00,564 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 18:17:00,784 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 18:17:00,941 - shop.demoqa.com - INFO - ******************* Click on Register Button *******************
+2020-04-11 18:17:01,020 - shop.demoqa.com - INFO - ******************* Verifying user successfully register *******************
+2020-04-11 18:17:01,706 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 18:17:01,746 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 18:17:07,144 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 18:17:07,165 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 18:17:11,384 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 18:17:19,987 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 18:17:22,318 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 18:17:22,533 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 18:17:22,681 - shop.demoqa.com - INFO - ******************* Click on Register Button *******************
+2020-04-11 18:17:22,760 - shop.demoqa.com - INFO - ******************* Verify User Already Registered and getting error message *******************
+2020-04-11 18:17:26,858 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 18:17:26,897 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 18:17:32,278 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 18:17:32,297 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 18:17:37,653 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 18:17:43,917 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 18:18:26,275 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 18:18:32,783 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 18:18:32,834 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 18:18:38,803 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 18:18:49,573 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:07:03,945 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:07:10,463 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:07:10,535 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:07:16,693 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:07:19,863 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 23:07:22,851 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 23:07:22,996 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 23:07:23,089 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 23:07:27,075 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:07:27,114 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:07:32,470 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:07:32,486 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:07:37,868 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:07:40,794 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 23:07:42,520 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 23:07:42,730 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 23:07:42,810 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 23:07:44,685 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:07:44,712 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:07:50,056 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:07:50,072 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:07:55,789 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:07:59,285 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 23:08:00,934 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 23:08:01,090 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 23:08:01,173 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 23:08:03,367 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:08:03,393 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:08:08,775 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:08:08,795 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:08:14,652 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:08:17,934 - shop.demoqa.com - INFO - ******************* Entering User Name *******************
+2020-04-11 23:08:19,930 - shop.demoqa.com - INFO - ******************* Entering Password *******************
+2020-04-11 23:08:20,117 - shop.demoqa.com - INFO - ******************* Click on Login Button *******************
+2020-04-11 23:08:20,208 - shop.demoqa.com - INFO - ******************* Verifying User unable to login and getting error message *******************
+2020-04-11 23:08:21,817 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:50:11,225 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:50:17,800 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:50:17,860 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:50:23,317 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:50:27,103 - shop.demoqa.com - INFO - ******************* closing browser *******************
+2020-04-11 23:57:54,221 - shop.demoqa.com - INFO - ****** Chrome browser setting up for you *******
+2020-04-11 23:58:00,924 - shop.demoqa.com - INFO - *******************Browser Initialization*******************
+2020-04-11 23:58:00,985 - shop.demoqa.com - INFO - ******************* Launch Browser and Navigate to URL *******************
+2020-04-11 23:58:06,869 - shop.demoqa.com - INFO - ******************* Go to the MyAccount page *******************
+2020-04-11 23:58:11,095 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 23:58:13,615 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 23:58:13,802 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 23:58:13,975 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 23:58:14,110 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 23:58:14,275 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 23:58:14,483 - shop.demoqa.com - INFO - ******************* Entering New User Name *******************
+2020-04-11 23:58:14,589 - shop.demoqa.com - INFO - ******************* Entering New Email ID *******************
+2020-04-11 23:58:14,770 - shop.demoqa.com - INFO - ******************* Entering New Password *******************
+2020-04-11 23:58:14,962 - shop.demoqa.com - INFO - ******************* Click on Register Button *******************
+2020-04-11 23:58:15,041 - shop.demoqa.com - INFO - ******************* Verifying user successfully register *******************
+2020-04-11 23:58:15,744 - shop.demoqa.com - INFO - ******************* closing browser *******************
