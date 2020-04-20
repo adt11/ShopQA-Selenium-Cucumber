@@ -50,9 +50,4 @@ public class BaseClass extends Base{
 	}
 	
 	
-	public void destroyDriver() {
-		
-		driver.close();
-	}
-
 }

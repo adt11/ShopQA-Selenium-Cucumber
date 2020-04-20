@@ -1,10 +1,7 @@
 package modules;
 
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObject.LoginIN;
 import pageObject.Registration;
 import stepDefinitions.Base;
@@ -17,10 +14,9 @@ public class MyAccountPage extends Base {
 		
 		PageFactory.initElements(driver, LoginIN.class);
 		PageFactory.initElements(driver, Registration.class);
-		wait = new WebDriverWait(driver, 120);
 	}
 	
-	public static MyAccountPage getInstance(WebDriver driver) {
+	public static MyAccountPage getInstance() {
 		
 		if(myactivity==null) {
 			myactivity = new MyAccountPage();
@@ -34,7 +30,6 @@ public class MyAccountPage extends Base {
 		LoginIN.userName.clear();
 		LoginIN.userName.sendKeys(user);
 		return myactivity;
-		
 	}
 	
 	public MyAccountPage setPassword(String className, String pass) {
@@ -72,50 +67,56 @@ public class MyAccountPage extends Base {
 	
 	public MyAccountPage Verify_Login_Invalid_Credentials() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.ErrorMessage));
+		visibleElement(LoginIN.ErrorMessage);
 		Assert.assertTrue(LoginIN.ErrorMessage.getText().contains("ERROR"));
 		return myactivity;
 	}
 	
 	public MyAccountPage Dashboard() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.dashboard));
+		visibleElement(LoginIN.dashboard);
 		LoginIN.dashboard.click();
 		return myactivity;
 	}
 	
 	public MyAccountPage Orders() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.order));
+		visibleElement(LoginIN.order);
 		LoginIN.order.click();
+		visibleElement(LoginIN.verifyOrder);
 		return myactivity;
 	}
 	
 	public MyAccountPage Downloads() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.download));
+		visibleElement(LoginIN.download);
 		LoginIN.download.click();
+		visibleElement(LoginIN.verifyDownload);
 		return myactivity;
 	}
 	
 	public MyAccountPage Addresses() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.adresses));
+		visibleElement(LoginIN.adresses);
 		LoginIN.adresses.click();
+		visibleElement(LoginIN.verifyAddress);
 		return myactivity;
 	}
 	
 	public MyAccountPage Accountdetails() {
 		
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.account));
+		visibleElement(LoginIN.account);
 		LoginIN.account.click();
+		visibleElement(LoginIN.verifyAccount);
 		return myactivity;
 	}
 	
 	public MyAccountPage Logout() {
 
-		wait.until(ExpectedConditions.visibilityOf(LoginIN.logout));
+		visibleElement(LoginIN.logout);
 		LoginIN.logout.click();
+		visibleElement(LoginIN.userName);
+		Assert.assertTrue(driver.getTitle().equals("My Account – ToolsQA Demo Site"));
 		return myactivity;
 		
 	}
@@ -135,8 +136,8 @@ public class MyAccountPage extends Base {
 	
 	public MyAccountPage Verify_User_Already_Register() {
 		
-		wait.until(ExpectedConditions.visibilityOf(Registration.ErrorMessage));
-		Assert.assertTrue(Registration.ErrorMessage.getText().contains("ERROR"));
+		visibleElement(Registration.ErrorMessage);
+		Assert.assertTrue(Registration.ErrorMessage.getText().contains("Error:"));
 		return myactivity;
 	}
 	

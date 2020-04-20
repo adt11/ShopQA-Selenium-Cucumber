@@ -14,7 +14,7 @@ public class HomeMenu {
 	@FindBy(xpath="//*[@href='http://shop.demoqa.com/wishlist/']")
 	public static WebElement menuWishList;
 	
-	@FindBy(xpath="http://shop.demoqa.com/checkout/")
+	@FindBy(xpath="//*[@href='http://shop.demoqa.com/checkout/']")
 	public static WebElement menuCheckout;
 	
 	@FindBy(xpath="//*[@class='noo-search']")

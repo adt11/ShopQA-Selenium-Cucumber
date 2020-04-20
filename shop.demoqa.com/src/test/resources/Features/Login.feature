@@ -14,25 +14,11 @@ Feature: Login Functionality
     When User click on Logout button
     Then User should able to logout successfully
     
-   @LoginMenu
-	Scenario: User should able to login with valid credentials
-    When User should able to go the MyAccount page
-    And User enter "qaselenium" and "Qwerty@12" in the Login Frame
-    And click on the Login button
-    Then User should able to login with valid credentials
-    And User should able to click on Dashboard menu
-    And User should able to click on Order menu
-    And User should able to click on Addresses menu
-    And User should able to click on Account details menu
-    And User should able to click on Downloads menu
-    When User click on Logout button
-    Then User should able to logout successfully
-    
       
    @SingleLogin
    Scenario Outline: After login user should able to click on menu items and logout
     When User should able to go the MyAccount page
-    And User enter Single<User> and Single<Pass> in the Login Frame
+    And User enter Single <User> and Single <Pass> in the Login Frame
     And click on the Login button
     Then User should able to login with valid credentials
     And User should able to click on Dashboard menu
@@ -43,19 +29,20 @@ Feature: Login Functionality
     When User click on Logout button
     Then User should able to logout successfully
     
-    @SingleLogin
+    @SingleData
     Examples: 
       | User   | Pass  |
       | qaselenium | Qwerty@12 |
 
-  @Log
+  
+  @MultipleLogin
   Scenario Outline: User should not able to login with invalid credentials
     When User should able to go the MyAccount page
     And User enter Multiple <UserName> and Multiple <PassWord>
     And click on the Login button
     Then User should not able to login and getting error message
 
-    @MutipleLogin
+    @MutipleData
     Examples: 
       | UserName | PassWord  |
       | User1    | Password1 |

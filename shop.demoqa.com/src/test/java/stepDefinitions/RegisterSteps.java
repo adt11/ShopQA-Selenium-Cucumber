@@ -1,46 +1,31 @@
 package stepDefinitions;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import org.junit.Assert;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import modules.HomeMenuPage;
 import modules.MyAccountPage;
-import utilities.Utils;
 
 public class RegisterSteps extends Base{
 	
+	//MyAccountPage myaccount = MyAccountPage.getInstance(driver);;
 	
-
-	
-	@When("User Enter Username and Email and Password")
+	@When("User Enter {string} and {string} and {string}")
 	public void user_Enter_Username_and_Email_and_Password(String user,String emailId,String pass) {
 	    
 		log.info("******************* Entering User Name *******************");
 		
-		MyAccountPage.getInstance(driver).setUserName("register", user);
+		MyAccountPage.getInstance().setRegUserName(user);
 		
 		log.info("******************* Entering User Name *******************");
 		
-		MyAccountPage.getInstance(driver).setEmail(emailId);
+		MyAccountPage.getInstance().setEmail(emailId);
 		
 		log.info("******************* Entering Password *******************");
 		
-		MyAccountPage.getInstance(driver).setPassword("register", pass);
+		MyAccountPage.getInstance().setRegPassword(pass);
 		
 	}
 	
@@ -52,34 +37,34 @@ public class RegisterSteps extends Base{
 		for(int i=1;i<list.size();i++) {
 									
 			log.info("******************* Entering New User Name *******************");
-			MyAccountPage.getInstance().setUserName("register", list.get(i).get(0));
+			MyAccountPage.getInstance().setRegUserName(list.get(i).get(0));
 			
 			log.info("******************* Entering New Email ID *******************");
 			MyAccountPage.getInstance().setEmail(list.get(i).get(1));
 			
 			log.info("******************* Entering New Password *******************");
-			MyAccountPage.getInstance().setPassword("register",list.get(i).get(2));
+			MyAccountPage.getInstance().setRegPassword(list.get(i).get(2));
 			
 		}
 	}
 	
-	@When("^User Enter ([^\\\"]* Following details)$")
-	public void User_Enter_Following_details(int sr, DataTable table) {
+	@When("^User Enter ([^\"]*) Following details$")
+	public void User_Enter_Following_details(String sr, DataTable table) {
 	    
 		
 		List<Map<String,String>> lm = table.asMaps(String.class, String.class);
 											
-		System.out.println("Username is : "+lm.get(sr).get("UserName"));
-		System.out.println("Username is : "+lm.get(sr).get("EmailId"));
-		System.out.println("Username is : "+lm.get(sr).get("Password"));
+		System.out.println("Username is : "+lm.get(Integer.parseInt(sr)-1).get("UserName"));
+		System.out.println("Username is : "+lm.get(Integer.parseInt(sr)-1).get("EmailId"));
+		System.out.println("Username is : "+lm.get(Integer.parseInt(sr)-1).get("Password"));
 			log.info("******************* Entering New User Name *******************");
-			MyAccountPage.getInstance().setUserName("register",lm.get(sr).get("UserName"));
+			MyAccountPage.getInstance().setRegUserName(lm.get(Integer.parseInt(sr)-1).get("UserName"));
 			
 			log.info("******************* Entering New Email ID *******************");
-			MyAccountPage.getInstance().setEmail(lm.get(sr).get("EmailId"));
+			MyAccountPage.getInstance().setEmail(lm.get(Integer.parseInt(sr)-1).get("EmailId"));
 			
 			log.info("******************* Entering New Password *******************");
-			MyAccountPage.getInstance().setPassword("register",lm.get(sr).get("Password"));
+			MyAccountPage.getInstance().setRegPassword(lm.get(Integer.parseInt(sr)-1).get("Password"));
 		
 	}
 
@@ -97,7 +82,7 @@ public class RegisterSteps extends Base{
 		MyAccountPage.getInstance().Verify_User_Already_Register();
 	}
 
-	@Then("User should able to Register")
+	@Then("User should able to Register successfully")
 	public void user_should_able_to_Register() {
 	    
 		log.info("******************* Verifying user successfully register *******************");

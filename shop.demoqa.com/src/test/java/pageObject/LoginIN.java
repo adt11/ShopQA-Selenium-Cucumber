@@ -23,19 +23,29 @@ public class LoginIN {
 	@FindBy(xpath="//*[@class='woocommerce-MyAccount-navigation']/ul/child::li[2]/a")
 	public static WebElement order;
 	
+	@FindBy(xpath="//*[@class='woocommerce-message woocommerce-message--info woocommerce-Message woocommerce-Message--info woocommerce-info']")
+	public static WebElement verifyOrder;
+	
 	@FindBy(xpath="//*[@class='woocommerce-MyAccount-navigation']/ul/child::li[3]/a")
 	public static WebElement download;
+	
+	@FindBy(xpath="//*[@class='woocommerce-Message woocommerce-Message--info woocommerce-info']")
+	public static WebElement verifyDownload;
 	
 	@FindBy(xpath="//*[@class='woocommerce-MyAccount-navigation']/ul/child::li[4]/a")
 	public static WebElement adresses;
 	
+	@FindBy(xpath="//*[@class='edit' and @href='http://shop.demoqa.com/my-account/edit-address/billing/']")
+	public static WebElement verifyAddress;
+	
 	@FindBy(xpath="//*[@class='woocommerce-MyAccount-navigation']/ul/child::li[5]/a")
 	public static WebElement account;
 	
+	@FindBy(xpath="//*[@class='woocommerce-Button button' and @type='submit']")
+	public static WebElement verifyAccount;
+	
 	@FindBy(xpath="//*[@class='woocommerce-MyAccount-navigation']/ul/child::li[6]/a")
 	public static WebElement logout;
-	
-
 	
 	@FindBy(xpath="//*[@class='woocommerce-error']/li/strong")
 	public static WebElement ErrorMessage;

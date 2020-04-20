@@ -17,6 +17,6 @@ public class Registration {
 	@FindBy(xpath="//*[@class='woocommerce-Button woocommerce-button button woocommerce-form-register__submit' and @name='register']")
 	public static WebElement registerBtn;
 	
-	@FindBy(xpath="//*[@class='woocommerce-error']/li/strong")
+	@FindBy(xpath="//*[@class='woocommerce-error' and @role='alert']/li/child::strong")
 	public static WebElement ErrorMessage;
 }
